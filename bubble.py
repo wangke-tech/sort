@@ -8,8 +8,8 @@
 
 def bubble(lst):
     flag = True
-    for i in range(len(lst)):
-        if flag:
+    for i in range(len(lst)):   # i=第i个冒出的气泡
+        if flag:   # 如果前一个气泡在冒泡过程中，没有交换顺序
             flag = False
             j = len(lst) -2
             while(i <=j):
